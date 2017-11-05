@@ -11,12 +11,12 @@ sudo apt-get install nodejs
 sudo apt install nodejs-legacy
 sudo apt install npm
 
-#更新npm的包镜像源，方便快速下载
+#更新npm的包镜像源
 
 sudo npm config set registry https://registry.npm.taobao.org
 sudo npm config list
 
-#全局安装n管理器(用于管理nodejs版本)
+#全局安装n管理器
 
 sudo npm install n -g
 
